@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "WiFi Manager",
+    "slug": "wifi-manager-expo",
+    "scheme": "wifimanager",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.local.wifimanager",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_WIFI_STATE",
+        "CHANGE_WIFI_STATE",
+        "ACCESS_NETWORK_STATE",
+        "NEARBY_WIFI_DEVICES"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      "expo-dev-client",
+      "./plugins/withWifiPermissions"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "8bddba03-8521-4d14-982e-4170377a9c5b"
+      }
+    }
+  }
+}

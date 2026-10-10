@@ -1,0 +1,30 @@
+# OSX
+#
+.DS_Store
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
+.cxx/
+
+# Bundle artifacts
+*.jsbundle
+
+
+notepad .gitignore
+node_modules/
+.expo/
+.gradle/
+**/build/
+dist/
+*.apk
+*.aab
+android/local.properties
+
+.git/
+

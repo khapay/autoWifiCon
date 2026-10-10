@@ -1,0 +1,11 @@
+@'
+node_modules/
+.expo/
+.gradle/
+**/build/
+dist/
+*.apk
+*.aab
+android/local.properties
+.git/
+'@ | Set-Content .easignore -Encoding utf8
